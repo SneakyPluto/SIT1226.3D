@@ -8,8 +8,6 @@ int16_t moveSpeed = 50;
 
 MeGyro gyro(1, 0x69);
 
-float j, f, k;
-
 // Threshold to determine light source direction
 const int threshold = 6;  // Adjust as needed based on your environment
 
